@@ -24,8 +24,6 @@ app.use(expressStatusMonitor());
 
 app.get('/', async(req, res) => {
     const { data } = await urqlClient.query(query, { test: new Date() }).toPromise().then(result => {
-        console.log(1, result);
-
         return result;
     })
 
