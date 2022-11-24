@@ -1,4 +1,6 @@
 # Testing `@urql/core`
+It was created to show the [problem](https://github.com/urql-graphql/urql/issues/2355).
+
 Use node 16
 
 `npm i`
