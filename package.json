@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gql-server": "node graphql-server.mjs",
     "request-server": "node requests-server.mjs",
+    "request-uniq-server": "node requests-uniq-server.mjs",
     "start": "node run-requests.mjs"
   },
   "keywords": [],
