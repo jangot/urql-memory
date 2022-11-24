@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gql-server": "node graphql-server.mjs"
+    "gql-server": "node graphql-server.mjs",
+    "request-server": "node requests-server.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@apollo/server": "^4.2.1",
+    "@urql/core": "^3.0.5",
     "apollo-server-express": "^3.11.1",
     "express": "^4.18.2",
-    "graphql": "^16.6.0"
+    "express-status-monitor": "^1.3.4",
+    "graphql": "^16.6.0",
+    "isomorphic-unfetch": "^3.1.0"
   }
 }
